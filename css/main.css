@@ -26,14 +26,27 @@ body {
 
 .cursive {
   font-family: "Dancing Script", cursive;
-  font-size: "112pt"
+  font-size: 2em;
 }
 
 .info {
+  display: inline-block;
+  width: 15%;
+  margin: 0;
+}
+.countdown {
   display: inline-block;
   width: 15%;
 }
 
 h2, p {
   font-family: "Open Sans Condensed", sans-serif;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .cursive {
+    font-size: 4em;
+  }
+
 }
