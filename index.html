@@ -5,8 +5,8 @@
   <title>Larissa Carruthers</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/type.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-    <link href="script.js" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
 </head>
@@ -22,8 +22,33 @@
       <p class="info push-none">Behance</p>
       <p class="info push-none">Dribble</p>
     </header>
-    <p id="timer" class="timer text-center" style="">105d 24h 0m 0s</p>
+    <div id="timer" class="grid timer text-center">
+      <div class="day unit xs-1-4">
+        <span id="days">77</span>
+        <div class="description">
+          <span>Days</span>
+        </div>
+      </div>
+      <div class="hour unit xs-1-4">
+        <span id="hours">01</span>
+        <div class="description">
+          <span>Hours</span>
+        </div>
+      </div>
+      <div class="minute unit xs-1-4">
+        <span id="minutes">56</span>
+        <div class="description">
+          <span>Minutes</span>
+        </div>
+      </div>
+      <div class="unit xs-1-4">
+        <span id="seconds">15</span>
+        <div class="description">
+          <span>Seconds</span>
+        </div>
+      </div>
+    </div>
   </article>
 </body>
-  <script src="text.script.js"></script>
+  <script src="js/script.js"></script>
 </html>
