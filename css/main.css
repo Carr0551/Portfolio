@@ -27,7 +27,7 @@ body {
 .cursive {
   font-family: "Dancing Script", cursive;
   font-size: 2em;
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
 .info {
@@ -51,18 +51,20 @@ h2, p {
 
 #days, #hours, #minutes, #seconds {
   display: block;
-  background-color: grey;
+  background-color: black;
   border-radius: 4px;
   font-family: "Open Sans Condensed", sans-serif;
   color: white;
-  font-size: 2em;
+  font-size: 1em;
+  max-width: 5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .description {
   padding-top: 1em;
 }
 
 .timer {
-  max-width: 10em;
   margin-left: auto;
   margin-right: auto;
 }
