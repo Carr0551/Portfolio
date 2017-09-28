@@ -14,6 +14,7 @@ html {
 
   font-family: "Open Sans Condensed", sans-serif;
   font-family: "Dancing Script", cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -34,7 +35,13 @@ body {
   display: inline-block;
   margin: 0;
   padding-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
 }
+
+.email {
+    font-family: "Open Sans", sans-serif;
+}
+
 .countdown {
   display: inline-block;
   width: 15%;
@@ -55,13 +62,13 @@ h2, p {
   border-radius: 4px;
   font-family: "Open Sans Condensed", sans-serif;
   color: white;
-  font-size: 1em;
-  max-width: 5em;
+  font-size: 3em;
+  max-width: 3em;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .description {
-  padding-top: 1em;
+  padding-top: 1px;
 }
 
 .timer {
@@ -69,15 +76,21 @@ h2, p {
   margin-right: auto;
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 30em) {
 
   .cursive {
     font-size: 4em;
   }
 
   #timer {
-    max-width: 20em;
-    max-height: 20em;
+    max-width: 40em;
+    max-height: 40em;
+    font-size: 2em;
+    max-width: 40em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
 }
