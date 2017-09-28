@@ -25,21 +25,27 @@ body {
   margin: 0;
 }
 
-.cursive {
+.name {
   font-family: "Dancing Script", cursive;
   font-size: 2em;
-  padding-top: 80px;
+  padding-top: 20px;
+  color: #423F3D;
 }
 
 .info {
   display: inline-block;
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   font-family: "Open Sans", sans-serif;
+  font-size: .8em;
+  color: #A09584;
 }
 
 .email {
     font-family: "Open Sans", sans-serif;
+    font-size: .8em;
+    padding-bottom: 5px;
+    color: #A09584;
 }
 
 .countdown {
@@ -48,44 +54,67 @@ body {
   padding-top: 5em;
 }
 
-.timer {
+.timer, h2 {
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-h2, p {
+p {
   font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2em;
 }
 
 #days, #hours, #minutes, #seconds {
   display: block;
-  background-color: black;
+  background: linear-gradient(#605E5B, #423F3D);
   border-radius: 4px;
   font-family: "Open Sans Condensed", sans-serif;
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   max-width: 3em;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .description {
   padding-top: 1px;
+  color: #423F3D;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .timer {
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
 }
 
 @media only screen and (min-width: 30em) {
 
-  .cursive {
+  .name {
     font-size: 4em;
   }
 
   #timer {
     max-width: 40em;
     max-height: 40em;
-    font-size: 2em;
+    font-size: 1em;
+    max-width: 40em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .name {
+    font-size: 4em;
+  }
+
+  #timer {
+    max-width: 40em;
+    max-height: 40em;
+    font-size: 1.3em;
     max-width: 40em;
     padding-top: 40px;
     padding-bottom: 40px;
